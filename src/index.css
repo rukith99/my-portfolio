@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', cursive;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+  50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+.animate-bounceSlow {
+  animation: bounce 1.5s infinite;
+}
+
+.dark-back{
+  background-color: #111111;
+}
+
+.dark-back-grad{
+  background-image:linear-gradient(black,#101212)
+}
+
+.back-gray1{
+  background-color: #161818;
+}
+
+.font-color1{
+  color: #DDDDDD;
+}
+
+.font-color2{
+  color: #AAAAAA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
