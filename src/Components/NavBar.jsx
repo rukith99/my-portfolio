@@ -37,7 +37,7 @@ const NavBar = () => {
     return (
         <div className="flex justify-between items-center w-full h-10 sm:h-20 px-4 py-4 dark-back fixed z-10"> 
             <div className="flex cursor-default">
-                <img src={logo} alt="my logo" className="w-5 h-6 sm:ml-24 mt-1"/>
+                <img src={logo} alt="my logo" className="w-6 h-6 sm:h-8 sm:w-8 sm:ml-24 mt-1"/>
                 <h1 className="text-lg font-semibold sm:text-2xl font-logo ml-4 text-sky-400">RUKI7H</h1>
                 <h2 className="ml-1 mt-1 text-xs font-logo text-sky-400">TM</h2>
             </div>  
