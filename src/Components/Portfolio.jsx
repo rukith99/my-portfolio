@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 iOS interface.
                                 Please click the link below to ckeck the full project on Figma                             
                     </p>
-                    <a href="#Portfolio" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.figma.com/file/RIt37N89APiur5r1NUc9gj/Untitled?node-id=0%3A1&t=KpXFGU2ecpcngHnS-1" target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
                 <div className="mt-14 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:ml-10">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             the developing stages hope to update it in near future.
                             Please click the link below to ckeck the full project on Figma  
                     </p>  
-                    <a href="#Portfolio" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
+                    <a href="https://www.figma.com/file/oshEsGGLTq99KtzFPxVWwH/Simply-Beverages?t=KpXFGU2ecpcngHnS-1"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
                 <div className="">
                     <img src={p2} alt="" loading="lazy" className="rounded-t-lg w-3/4 border-b-4 border-sky-400 font-color1 hover:scale-105 duration-300 mx-auto lg:mr-10 mt-8 lg:mt-0"/>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 Its not a complete design project, but you can check
                                 the demonstration of few interfaces using below link. 
                     </p>
-                    <a href="#Portfolio" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.figma.com/file/FQxQHhfYoEp33VAwrdC1Gg/NIKE?t=KpXFGU2ecpcngHnS-1"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
             </div>
         </div>
