@@ -73,7 +73,7 @@ const Experience = () => {
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
                 <div className="mt-10 lg:mt-20">
                     <div className="text-center">
-                    <p className="text-4xl sm:text-6xl font-bold font-logo text-white border-b-2 border-cyan-500 p-2 inline">
+                    <p className="text-4xl sm:text-6xl font-extrabold font-main text-white border-b-2 border-cyan-500 p-2 inline">
                         Experience
                     </p>
                     </div>
@@ -88,7 +88,7 @@ const Experience = () => {
                         techs.map(({id, src, title, style}) => (
                             <div key={id} className={`hover:scale-110 duration-300 rounded-lg ${style}`}>
                                 <img className="w-52 mx-auto pt-2 sm:pt-6" src={src} alt="" />
-                                <p className="mt-4 text-sm pb-2 sm:pb-4 sm:text-lg font-color1">{title}</p>
+                                <p className="mt-4 text-sm pb-2 sm:pb-4 sm:text-lg font-color1 font-main">{title}</p>
                             </div>
                         ) )
                     }

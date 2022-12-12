@@ -42,15 +42,15 @@ const Home = () => {
 
                 <div className="flex flex-col justify-center h-full w-full"> 
                     <div className="flex">
-                        <h3 className="text-xl sm:text-2xl pt-16 pb-8 lg:pb-12 font-logo font-color1 font-medium">
-                            Hey there, I'm Rukith Ranasinghe !
+                        <h3 className="text-xl sm:text-2xl pt-16 pb-4 lg:pb-10 font-logo font-color1 font-light">
+                            HEY THERE, I'M RUKITH RANASINGHE !
                         </h3>
                         <img src={Heart} alt="my profile" className="w-16 h-16 sm:w-20 sm:h-20 mt-14 sm:mt-10 mx-auto animate-bounceSlow" />
                     </div>
-                     <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-sky-500 via-green-400 to-green-500 bg-clip-text text-transparent rounded-md "> {/**/}
+                     <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-sky-500 via-green-400 to-green-500 bg-clip-text text-transparent">
                         DESIGNER, DEVELOPER AND SOLUTION PROVIDER
                     </h2>
-                    <p className="font-color2 my-4 py-2 px-2 rounded-lg max-w-md font-normal back-gray1 text-sm sm:text-base font-headTitle">
+                    <p className="font-color2 my-6 py-2 px-2 rounded-lg max-w-md font-normal back-gray1 text-base sm:text-lg font-main">
                         Amatuer level <a href="https://www.interaction-design.org/literature/topics/ui-design" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-sky-400">UI Engineer</a><br/>
                         Undergraduate at <a href="https://www.nibm.lk/" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-sky-400">NIBM - Colombo, Sri Lanka</a>
                     </p>
@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
                 <div className="ml-20 sm:ml-12 mt-6 sm:mt-20">
                     <img src={MyImage} alt="my profile"
-                    className="rounded-lg w-2/3 md:w-full " />
+                    className="rounded-lg w-2/3 md:w-full" />
                 </div>
             </div>
         </div>

@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         logo: ["Poppins"],
         headTitle: ["Comfortaa"],
+        main: ["Nunito"],
       }
     },
   },

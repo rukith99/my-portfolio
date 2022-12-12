@@ -7,7 +7,7 @@ const About = () => {
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8 mt-12 lg:mt-32 min-h-fit">
                     <div className="text-center"> 
-                    <p className="text-4xl sm:text-6xl pt-20 font-bold font-logo text-white inline border-b-2 border-sky-500">
+                    <p className="text-4xl sm:text-6xl pt-20 font-extrabold font-main text-white inline border-b-2 border-sky-500">
                         About
                     </p>
                     </div>
