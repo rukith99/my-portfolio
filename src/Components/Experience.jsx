@@ -81,14 +81,14 @@ const Experience = () => {
                         Technologies I've experienced in
                     </p>
                 </div>
-                <div className="w-full grid grid-cols-3 sm:grid-cols-5 gap-8 sm:gap-20 text-center py-4 px-12 sm:px-0
-                border-t-2 border-white border-opacity-5 pt-8 border-b-2 pb-8 mt-8">
+                <div className="w-full grid grid-cols-3 sm:flex gap-8 sm:gap-10 text-center py-4 px-12 sm:px-0
+                border-t-2 border-white border-opacity-5 pt-8 border-b-2 pb-16 mt-8">
 
                     {
                         techs.map(({id, src, title, style}) => (
                             <div key={id} className={`hover:scale-110 duration-300 rounded-lg ${style}`}>
                                 <img className="w-52 mx-auto pt-2 sm:pt-6" src={src} alt="" />
-                                <p className="mt-4 text-sm pb-2 sm:pb-4 sm:text-lg font-color1 font-main">{title}</p>
+                                {/* <p className="mt-4 text-sm pb-2 sm:pb-4 sm:text-lg font-color1 font-main">{title}</p> */}
                             </div>
                         ) )
                     }
