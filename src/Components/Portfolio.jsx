@@ -22,7 +22,7 @@ const Portfolio = () => {
                     <img src={p1} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 mx-auto lg:mt-4 lg:ml-10"/>
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left">
-                    <h4 className="py-4 sm:text-lg lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10 ">Redesign for Sampath Vishwa App</h4>
+                    <h4 className="py-4 sm:text-lg lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10 ">Sampath Vishwa App Design</h4>
                     <p className=" indent-6 text-justify text-sm font-logo mt-4 mb-8 text-gray-300 mx-auto lg:mr-10">
                                 Here is my project of redesigning the mobile app for
                                 well-known bank called Sampath Bank in Sri Lanka.
@@ -38,16 +38,16 @@ const Portfolio = () => {
                 </div>
                 <div className="mt-14 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:ml-10">
-                        Simply Beverages Concept App 
+                        Absolute Beverages App Design
                     </h4>
                     <p className="text-justify indent-6 text-sm font-logo mt-4 mb-8 mx-auto lg:ml-10 text-gray-300">
-                            The Simply Orange Juice Company is an American fruit juice company
-                            based in Apopka, Florida that was founded in 2001 and
-                            is a brand of The Coca-Cola Company. 
-                            So got inspired after saw their logo and brandings
-                            and decided to do a concept design of iOS mobile app interfaces for
-                            Simply Beverages online purchasing app. The project still in
-                            the developing stages hope to update it in near future.
+                            The Absolute Beverages is a mobile app for purchase beverages 
+                            through online. Users can simply log in to the app and 
+                            they can buy their favorite products and also can add them 
+                            to the cart. Got inspired after saw some designs and 
+                            brandings about beverages and done this concept design of iOS mobile app interfaces. 
+                            It is not a complete design project, but it is consist of 4 major page designs. 
+                            Hope to develop it as a full design project in future.
                             Please click the link below to check the full project on Behance.  
                     </p>  
                     <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10">
-                        NIKE Boots Store Concept App
+                        NIKE Boots Store App Design
                     </h4>
                     <p className="indent-6 text-justify text-sm font-logo mt-4 mb-8 mx-auto lg:mr-10 text-gray-300">
                                 NIKE is one of the leading manufacturer in shoes
