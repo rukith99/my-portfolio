@@ -1,6 +1,6 @@
 import React from 'react'
-import p1 from "../Assets/proj1.jpg"
-import p2 from "../Assets/proj2.jpg"
+import p1 from "../Assets/proj1.png"
+import p2 from "../Assets/proj2.png"
 import p3 from "../Assets/proj3.jpg"
 
 const Portfolio = () => {
@@ -19,7 +19,7 @@ const Portfolio = () => {
             </div>
             <div className="lg:grid md:grid grid-cols-2 grid-rows-3 gap-24 justify-between border-t-2 border-white border-opacity-5 pt-8 border-b-2 pb-8">
                 <div className="">
-                    <img src={p1} alt="" loading="lazy" className="rounded-t-lg w-3/4 border-b-4 border-sky-400 font-color1 hover:scale-105 duration-300 mx-auto lg:ml-10"/>
+                    <img src={p1} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 mx-auto lg:mt-4 lg:ml-10"/>
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-lg lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10 ">Redesign for Sampath Vishwa App</h4>
@@ -32,9 +32,9 @@ const Portfolio = () => {
                                 iOS devices. I used the android user interfaces as the 
                                 references and redesign the mobile app as suitable for
                                 iOS interface.
-                                Please click the link below to ckeck the full project on Figma                             
+                                Please click the link below to check the full project on Behance.                             
                     </p>
-                    <a href="https://www.figma.com/file/RIt37N89APiur5r1NUc9gj/Untitled?node-id=0%3A1&t=KpXFGU2ecpcngHnS-1" target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.behance.net/gallery/159063705/iOS-User-Interface-for-Sampath-Vishwa-App" target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
                 <div className="mt-14 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:ml-10">
@@ -48,15 +48,15 @@ const Portfolio = () => {
                             and decided to do a concept design of iOS mobile app interfaces for
                             Simply Beverages online purchasing app. The project still in
                             the developing stages hope to update it in near future.
-                            Please click the link below to ckeck the full project on Figma  
+                            Please click the link below to check the full project on Behance.  
                     </p>  
-                    <a href="https://www.figma.com/file/oshEsGGLTq99KtzFPxVWwH/Simply-Beverages?t=KpXFGU2ecpcngHnS-1"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
+                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
                 <div className="">
-                    <img src={p2} alt="" loading="lazy" className="rounded-t-lg w-3/4 border-b-4 border-sky-400 font-color1 hover:scale-105 duration-300 mx-auto lg:mr-10 mt-8 lg:mt-0"/>
+                    <img src={p2} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 mx-auto lg:mr-10 mt-8 lg:mt-4"/>
                 </div>
-                <div className="mt-16 lg:mt-10">
-                    <img src={p3} alt="" loading="lazy" className="rounded-t-lg w-3/4 border-b-4 border-sky-400 font-color1 hover:scale-105 duration-300 hover:shadow-md mx-auto lg:ml-10"/>
+                <div className="mt-16 lg:mt-4">
+                    <img src={p3} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 hover:shadow-md mx-auto lg:ml-10"/>
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left">
                     <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10">
