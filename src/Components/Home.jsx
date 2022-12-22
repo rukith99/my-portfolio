@@ -62,9 +62,9 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
-                <div className="ml-20 sm:ml-12 mt-6 sm:mt-20">
+                <div className="sm:ml-12 mt-6 sm:mt-20">
                     <img src={MyImage} alt="my profile"
-                    className="rounded-lg w-2/3 md:w-full" />
+                    className="rounded-lg w-full" />
                 </div>
             </div>
         </div>
