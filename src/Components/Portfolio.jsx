@@ -6,14 +6,14 @@ import p3 from "../Assets/proj3.png"
 const Portfolio = () => {
   return (
     <div id="portfolio" name="portfolio" className="dark-back w-full h-max">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
+        <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full font-color1">
             <div className="mt-10 lg:mt-20">
                 <div className="text-center">
-                <p className="text-4xl sm:text-6xl font-extrabold font-main text-white border-b-2 border-cyan-500 p-2 inline">
-                    Portfolio
+                <p className="text-3xl sm:text-6xl font-light font-hero text-slate-500 border-b border-teal-400 p-2 inline">
+                    P O R T F O L I O
                 </p>
                 </div>
-                <p className="text-base sm:text-2xl text-center font-semibold mt-16 mb-16 text-sky-400 font-logo">
+                <p className="text-base sm:text-2xl text-center font-normal mt-16 mb-16 text-teal-400 font-logo">
                     Freely inspired design projects
                 </p>
             </div>
@@ -22,8 +22,8 @@ const Portfolio = () => {
                     <img src={p1} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 mx-auto lg:mt-4 lg:ml-10"/>
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left lg:border-r-2 lg:border-white lg:border-opacity-5">
-                    <h4 className="py-4 sm:text-lg lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10 ">Sampath Vishwa App Design</h4>
-                    <p className=" indent-6 text-justify text-sm font-logo mt-4 mb-8 text-gray-300 mx-auto lg:mr-10">
+                    <h4 className="py-4 sm:text-lg lg:text-3xl font-hero mt-4 font-light border-b border-teal-400 lg:mr-10 ">SAMPATH VISHWA APP DESIGN</h4>
+                    <p className=" indent-6 text-justify text-sm font-logo mt-4 mb-8 lg:mt-16 lg:mb-16 text-gray-300 mx-auto lg:mr-10">
                                 Here is my project of redesigning the mobile app for
                                 well-known bank called Sampath Bank in Sri Lanka.
                                 Currently the "Sampath Vishwa" the mobile banking app
@@ -34,13 +34,13 @@ const Portfolio = () => {
                                 iOS interface.
                                 Please click the link below to check the full project on Behance.                             
                     </p>
-                    <a href="https://www.behance.net/gallery/159063705/iOS-User-Interface-for-Sampath-Vishwa-App" target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.behance.net/gallery/159063705/iOS-User-Interface-for-Sampath-Vishwa-App" target="_blank" rel="noreferrer" className="text-base text-teal-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
                 <div className="mt-14 lg:mt-0 text-center lg:text-left lg:border-l-2 lg:border-white lg:border-opacity-5">
-                    <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:ml-10">
-                        Absolute Beverages App Design
+                    <h4 className="py-4 sm:text-lg lg:text-3xl mt-4 font-hero font-light border-b border-teal-400 lg:ml-10">
+                        ABSOLUTE BEVERAGES APP DESIGN
                     </h4>
-                    <p className="text-justify indent-6 text-sm font-logo mt-4 mb-8 mx-auto lg:ml-10 text-gray-300">
+                    <p className="text-justify indent-6 text-sm font-logo mt-8 mb-8 lg:mt-16 lg:mb-16 mx-auto lg:ml-10 text-gray-300">
                             The Absolute Beverages is a mobile app for purchase beverages 
                             through online. Users can simply log in to the app and 
                             they can buy their favorite products and also can add them 
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             Hope to develop it as a full design project in future.
                             Please click the link below to check the full project on Behance.  
                     </p>  
-                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
+                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-teal-400 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
                 <div className="">
                     <img src={p2} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 mx-auto lg:mr-10 mt-8 lg:mt-4"/>
@@ -59,10 +59,10 @@ const Portfolio = () => {
                     <img src={p3} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 hover:scale-105 duration-300 hover:shadow-md mx-auto lg:ml-10"/>
                 </div>
                 <div className="mt-4 lg:mt-0 text-center lg:text-left lg:border-r-2 lg:border-white lg:border-opacity-5">
-                    <h4 className="py-4 sm:text-base lg:text-2xl font-logo font-semibold border-b-2 border-sky-400 lg:mr-10">
-                        NIKE Boots Store App Design
+                    <h4 className="py-4 sm:text-base lg:text-3xl font-hero mt-4 font-light border-b border-teal-400 lg:mr-10">
+                        NIKE BOOTS STORE APP DESIGN
                     </h4>
-                    <p className="indent-6 text-justify text-sm font-logo mt-4 mb-8 mx-auto lg:mr-10 text-gray-300">
+                    <p className="indent-6 text-justify text-sm font-logo mt-4 mb-8 lg:mt-16 lg:mb-16 mx-4 lg:mx-auto lg:mr-10 text-gray-300">
                                 NIKE is one of the leading manufacturer in shoes
                                 for both men and women even for kids. Also they
                                 have a huge reputation in sports industry and the
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 Its not a complete design project, but you can check
                                 the demonstration of few interfaces using below link. 
                     </p>
-                    <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-sky-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-teal-400 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@ const Experience = () => {
             id: 4,
             src: csharp,
             title: 'C#',
-            // style: 'shadow-sky-500'
+            // style: 'shadow-teal-500'
         },
         {
             id: 5,
@@ -73,11 +73,11 @@ const Experience = () => {
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
                 <div className="mt-10 lg:mt-20">
                     <div className="text-center">
-                    <p className="text-4xl sm:text-6xl font-extrabold font-main text-white border-b-2 border-cyan-500 p-2 inline">
-                        Experience
+                    <p className="text-3xl sm:text-6xl font-light font-hero text-slate-500 border-b border-teal-400 p-2 inline">
+                        E X P E R I E N C E
                     </p>
                     </div>
-                    <p className="text-base sm:text-2xl text-center font-semibold mt-16 text-sky-400 first:last:  font-logo">
+                    <p className="text-base sm:text-2xl text-center font-normal mt-16 text-teal-400 first:last:  font-logo">
                         Technologies I've experienced in
                     </p>
                 </div>

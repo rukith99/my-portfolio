@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        logo: ["Poppins"],
+        hero: ["Josefin Sans"],
         headTitle: ["Comfortaa"],
         main: ["Nunito"],
+        logo: ["Poppins"],
+        name: ["Allura"],
       }
     },
   },

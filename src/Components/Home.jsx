@@ -38,21 +38,28 @@ const Home = () => {
     return (
         <div id="home" name="home" className="h-max w-full py-4 dark-back">
 
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:pt-16 md:flex-row">
+            <div className="max-w-screen-xl mx-auto flex flex-col items-stretch justify-center h-full px-4 sm:pt-16 md:flex-row">
 
-                <div className="flex flex-col justify-center h-full w-full"> 
+                <div className="flex flex-col justify-center h-full lg:w-[1500px] w-full"> 
                     <div className="flex">
-                        <h3 className="text-xl sm:text-2xl pt-16 pb-4 lg:pb-10 font-logo font-color1 font-light">
-                            HEY THERE, I'M RUKITH RANASINGHE !
+                        <h3 className="text-md sm:text-2xl pt-10 pb-4 font-logo font-color1 font-light">
+                            Hey There ! I'm <a href="#/" target="_blank" rel="noreferrer" className="font-name sm:text-4xl text-3xl text-teal-400 cursor-text">Rukith Ranasinghe</a>
                         </h3>
-                        <img src={Heart} alt="my profile" className="w-16 h-16 sm:w-20 sm:h-20 mt-14 sm:mt-10 mx-auto animate-bounceSlow" />
+                        <img src={Heart} alt="my profile" className="w-12 h-12 sm:w-16 sm:h-16 mt-12 sm:mt-8 mb-8 mx-10 animate-bounceSlow" />
                     </div>
-                     <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-sky-500 via-green-400 to-green-500 bg-clip-text text-transparent">
-                        DESIGNER, DEVELOPER AND SOLUTION PROVIDER
+                     {/* <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-teal-500 via-green-400 to-green-500 bg-clip-text text-transparent"> */}
+                     <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
+                        UI DESIGNER
                     </h2>
-                    <p className="font-color2 my-6 py-2 px-2 rounded-lg max-w-md font-normal back-gray1 text-base sm:text-lg font-main">
-                        Amatuer level <a href="https://www.interaction-design.org/literature/topics/ui-design" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-sky-400">UI Engineer</a><br/>
-                        Undergraduate at <a href="https://www.nibm.lk/" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-sky-400">NIBM - Colombo, Sri Lanka</a>
+                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
+                        WEB DEVELOPER
+                    </h2>
+                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300">
+                        SOLUTION PROVIDER
+                    </h2>
+                    <p className="font-color2 my-6 py-2 px-4 rounded-lg max-w-md font-normal back-gray1 text-base sm:text-lg font-main">
+                        BSc (Hons) in <a href="https://www.nibm.lk/programmes/bsc-hons-computing/" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-teal-400">Computer Science</a><br/>
+                        Undergraduate at <a href="https://www.nibm.lk/" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-teal-400">NIBM - Colombo, Sri Lanka</a>
                     </p>
                     
                     <h4 className="font-color2 text-base sm:text-lg mt-4 font-logo">Get in touch</h4>
@@ -64,7 +71,7 @@ const Home = () => {
                 </div>
                 <div className="sm:ml-12 mt-6 sm:mt-20">
                     <img src={MyImage} alt="my profile"
-                    className="rounded-lg w-full" />
+                    className="rounded-lg w-full mix-blend-screen" />
                 </div>
             </div>
         </div>
