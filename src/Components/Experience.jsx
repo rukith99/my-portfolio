@@ -8,6 +8,9 @@ import reactImage from "../Assets/React.png"
 import tailwindImage from "../Assets/Tailwind.png"
 import figma from "../Assets/Figma.png"
 import adobexd from "../Assets/AdobeXD.png"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Experience = () => {
 
@@ -68,9 +71,13 @@ const Experience = () => {
         }
     ]
 
+    useEffect(() => {
+        Aos.init({duration: 1500});
+    }, [])
+
     return (
         <div id="experience" name="experience" className="dark-back w-full h-max">
-            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
+            <div data-aos="fade" className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
                 <div className="mt-10 lg:mt-20">
                     <div className="text-center">
                     <p className="text-3xl sm:text-6xl font-light font-hero text-slate-500 border-b border-teal-400 p-2 inline">

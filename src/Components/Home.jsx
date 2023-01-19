@@ -3,6 +3,9 @@ import MyImage from '../Assets/my_image.jpg';
 import Heart from '../Assets/Heart.png';
 import { FaGithub, FaLinkedin, FaFacebookF, FaInstagram, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Home = () => {
 
@@ -35,10 +38,14 @@ const Home = () => {
         },
     ]
 
+    useEffect(() => {
+        Aos.init({duration: 1500});
+    }, [])
+
     return (
         <div id="home" name="home" className="h-max w-full py-4 dark-back">
 
-            <div className="max-w-screen-xl mx-auto flex flex-col items-stretch justify-center h-full px-4 sm:pt-16 md:flex-row">
+            <div data-aos="fade"  className="max-w-screen-xl mx-auto flex flex-col items-stretch justify-center h-full px-4 sm:pt-16 md:flex-row">
 
                 <div className="flex flex-col justify-center h-full lg:w-[1500px] w-full"> 
                     <div className="flex">
