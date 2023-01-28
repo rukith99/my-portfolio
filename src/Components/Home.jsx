@@ -56,10 +56,10 @@ const Home = () => {
                     </div>
                      {/* <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-teal-500 via-green-400 to-green-500 bg-clip-text text-transparent"> */}
                      <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
-                        UI DESIGNER
+                        UI DESIGNER,
                     </h2>
                     <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
-                        WEB DEVELOPER
+                        UI DEVELOPER &
                     </h2>
                     <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300">
                         SOLUTION PROVIDER
