@@ -13,7 +13,7 @@ const Portfolio = () => {
     }, [])
 
   return (
-    <div id="portfolio" name="portfolio" className="dark-back w-full h-max overflow-x-hidden">
+    <div id="portfolio" name="portfolio" className="dark-back w-full h-max overflow-hidden">
         <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full font-color1">
             <div data-aos="fade" className="mt-10 lg:mt-20">
                 <div className="text-center">
