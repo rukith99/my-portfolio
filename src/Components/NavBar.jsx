@@ -55,7 +55,7 @@ const NavBar = () => {
                 {nav && (
                 <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen dark-back">
                 {links.map(({ id, links, href}) =>(
-                    <a onClick={() => setNav(!nav)} href={href}><li key={id} className="px-4 cursor-pointer capitalize py-6 text-3xl font-light font-hero font-color1 hover:text-teal-400 hover:-rotate-6 hover:scale-110 duration-300">{links}</li></a>  ))}
+                    <a onClick={() => setNav(!nav)} href={href}><li key={id} className="px-4 cursor-pointer capitalize py-6 text-3xl text-white font-hero font-color1 hover:text-teal-400 hover:-rotate-6 hover:scale-110 duration-300">{links}</li></a>  ))}
                 </ul>
                 )}
         </div>

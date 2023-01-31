@@ -80,7 +80,7 @@ const Experience = () => {
             <div data-aos="fade" className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
                 <div className="mt-10 lg:mt-20">
                     <div className="text-center">
-                    <p className="text-3xl sm:text-6xl font-light font-hero text-slate-500 border-b border-teal-400 p-2 inline">
+                    <p className="text-3xl sm:text-6xl font-light font-hero text-white border-b border-teal-400 p-2 inline">
                         E X P E R I E N C E
                     </p>
                     </div>

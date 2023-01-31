@@ -15,11 +15,11 @@ const About = () => {
             <div data-aos="fade-up" className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8 mt-12 lg:mt-32 min-h-fit">
                     <div className="text-center"> 
-                    <p className="text-3xl sm:text-6xl pt-20 font-light font-hero text-slate-500 inline border-b border-teal-400">
+                    <p className="text-3xl sm:text-6xl pt-20 font-light font-hero text-white inline border-b border-teal-400">
                         A B O U T
                     </p>
                     </div>
-                    <div className="lg:flex items-center justify-between text-sm sm:text-lg mt-16 back-gray1 font-logo font-light font-color1 px-4 py-12 rounded-lg">
+                    <div className="lg:flex items-center justify-between text-sm sm:text-lg mt-16 back-gray1 font-logo font-color2 font-color1 px-4 py-12 rounded-lg">
                         <div className="text-justify lg:mx-10">
                             <p className=" indent-6">
                                 Hi there, I'm Rukith Ranasinghe 23 year old Sri Lanka 

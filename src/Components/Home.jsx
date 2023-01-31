@@ -55,13 +55,13 @@ const Home = () => {
                         <img src={Heart} alt="my profile" className="w-12 h-12 sm:w-16 sm:h-16 mt-12 sm:mt-8 mb-8 mx-10 animate-bounceSlow" />
                     </div>
                      {/* <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-teal-500 via-green-400 to-green-500 bg-clip-text text-transparent"> */}
-                     <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
+                     <h2 className="text-4xl sm:text-7xl font-light font-hero text-gray-400 hover:text-gray-100 duration-300 mb-2">
                         UI DESIGNER,
                     </h2>
-                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300 mb-2">
+                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-gray-400 hover:text-gray-100 duration-300 mb-2">
                         UI DEVELOPER &
                     </h2>
-                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-slate-500 hover:text-slate-300 duration-300">
+                    <h2 className="text-4xl sm:text-7xl font-light font-hero text-gray-400 hover:text-gray-100 duration-300">
                         SOLUTION PROVIDER
                     </h2>
                     <p className="font-color2 my-6 py-2 px-4 rounded-lg max-w-md font-normal back-gray1 text-base sm:text-lg font-main">
@@ -69,7 +69,7 @@ const Home = () => {
                         Undergraduate at <a href="https://www.nibm.lk/" target="_blank" rel="noreferrer" className="font-medium text-sm sm:text-base text-teal-400">NIBM - Colombo, Sri Lanka</a>
                     </p>
                     
-                    <h4 className="font-color2 text-base sm:text-lg mt-4 font-logo">Get in touch</h4>
+                    <h4 className="text-white text-base sm:text-lg mt-4 font-logo">Get in touch</h4>
                     <div className="flex justify-between lg:mt-2 pt-4 lg:pt-4 border-t-[1.5px] border-white border-opacity-5">
                         {social.map(({ id, child, href}) =>(
                             <a href={href} className=" font-color2 hover:text-white hover:scale-125 duration-300" target="_blank" rel="noreferrer">{child}</a>
