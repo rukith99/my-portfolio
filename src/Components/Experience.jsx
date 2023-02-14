@@ -80,16 +80,16 @@ const Experience = () => {
             <div data-aos="fade" className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full font-color1">
                 <div className="mt-10 lg:mt-20">
                     <div className="text-center">
-                    <p className="text-3xl sm:text-6xl font-light font-hero text-white border-b border-teal-400 p-2 inline">
-                        E X P E R I E N C E
+                    <p className="text-4xl sm:text-6xl pt-20 font-medium font-basic text-white inline">
+                        Experience <span className="font-logo sm:text-6xl text-4xl text-amber-500 cursor-text">.</span>
                     </p>
                     </div>
-                    <p className="text-base sm:text-2xl text-center font-normal mt-16 text-teal-400 first:last:  font-logo">
+                    <p className="text-base sm:text-2xl text-center font-normal mt-6 mb-16 text-amber-500 font-basic">
                         Technologies I've experienced in
                     </p>
                 </div>
                 <div className="w-full grid grid-cols-3 sm:flex gap-8 sm:gap-10 text-center py-4 px-12 sm:px-0
-                border-t-2 border-white border-opacity-5 pt-8 border-b-2 pb-16 mt-8">
+                border-t-2 border-amber-400 border-opacity-10 pt-8 border-b-2 pb-16 sm:mt-8">
 
                     {
                         techs.map(({id, src, title, style}) => (

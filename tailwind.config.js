@@ -12,6 +12,7 @@ module.exports = {
         main: ["Nunito"],
         logo: ["Poppins"],
         name: ["Allura"],
+        basic: ["Sora"],
       }
     },
   },
