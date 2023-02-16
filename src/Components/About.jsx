@@ -21,9 +21,9 @@ const About = () => {
                     </div>
                     <div className="lg:flex items-center mt-8 justify-between text-sm sm:text-lg back-gray1 font-logo font-color2 font-color1 px-4 py-12 rounded-lg">
                         <div className="text-justify lg:mx-10">
-                            <p className=" indent-6">
+                            <p className="indent-6">
                                 Hi there, I'm Rukith Ranasinghe 23 year old Sri Lanka 
-                                based UI Designer and an Engineer. Currently I'm a 
+                                based UI/UX Designer and an Engineer. Currently I'm a 
                                 Computer Science undergraduate at National Institute of Business Management
                                 Colombo, Sri Lanka. I'm passionate about all the creative things.
                                 I was previously a trainee full stack developer in a company for about
@@ -33,7 +33,7 @@ const About = () => {
                         </div>
                         <br/>
                         <div className="text-justify lg:mx-10">
-                            <p className=" indent-6">
+                            <p className="indent-6">
                                 I consider my self as a creative, hardworking, passionate for
                                 create designs, friendly person and a team player.
                                 It is my ability to think of innovative ideas, user focused
