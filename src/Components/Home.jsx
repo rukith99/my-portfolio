@@ -1,5 +1,6 @@
 import React from 'react';
 import MyImage from '../Assets/my_image.jpg';
+// import MyVideo from '../Assets/my_video.mp4';
 import Heart from '../Assets/Heart.png';
 import { FaGithub, FaLinkedin, FaFacebookF, FaInstagram, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
@@ -80,6 +81,7 @@ const Home = () => {
                 <div className="sm:ml-12 mt-6 sm:mt-20">
                     <img src={MyImage} alt="my profile"
                     className="rounded-xl w-full mix-blend-screen" />
+                    {/* <video src={MyVideo} autoPlay loop muted className='w-full' /> */}
                 </div>
             </div>
         </div>

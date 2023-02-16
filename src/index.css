@@ -56,3 +56,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+.wrapper{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #000000;
+  display: grid;
+  place-items: center;
+  transition: opacity 0.25s, visibility 1s;
+}
+
+.fade{
+  opacity: 0;
+  visibility: hidden;
+}
