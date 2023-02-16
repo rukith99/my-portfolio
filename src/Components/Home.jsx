@@ -56,7 +56,7 @@ const Home = () => {
                         <img src={Heart} alt="my profile" className="w-12 h-12 sm:w-16 sm:h-16 mt-12 sm:mt-8 mb-8 mx-10 animate-bounceSlow" />
                     </div>
                      {/* <h2 className="text-4xl sm:text-6xl font-extrabold font-logo bg-gradient-to-r from-teal-500 via-green-400 to-green-500 bg-clip-text text-transparent"> */}
-                     <h2 className="text-4xl sm:text-7xl font-medium font-basic text-gray-100 hover:bg-gradient-to-r hover:from-amber-600 hover:to-amber-300 hover:bg-clip-text hover:text-transparent hover:duration-300 mb-4">
+                     <h2 className="text-4xl sm:text-7xl font-medium font-basic text-gray-100 hover:bg-gradient-to-r hover:from-amber-600 hover:to-amber-300 hover:bg-clip-text hover:text-transparent hover:duration-300 pb-4">
                         UI Designer <span className='text-4xl sm:text-7xl font-normal font-basic text-amber-500'>,</span>
                     </h2>
                     <h2 className="text-4xl sm:text-7xl font-medium font-basic hover:text-gray-100 bg-gradient-to-r from-amber-600 to-amber-300 bg-clip-text text-transparent hover:duration-300">
