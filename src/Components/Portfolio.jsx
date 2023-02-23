@@ -31,7 +31,7 @@ const Portfolio = () => {
                 </div>
                 <div data-aos="fade-left" className="mt-4 lg:mt-0 text-center lg:text-left lg:border-r-2 lg:border-amber-400 lg:border-opacity-10">
                     <h4 className="py-4 sm:text-base lg:text-3xl font-basic mt-4 font-normal text-white lg:mr-10">Sampath Vishwa App Design<span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span></h4>
-                    <p className=" indent-6 text-justify text-sm sm:text-base font-basic mt-4 mb-8 lg:mt-12 lg:mb-16 font-color2 mx-auto lg:mr-10">
+                    <p className=" indent-6 text-justify text-sm sm:text-base font-basic mt-4 mb-8 lg:mt-10 lg:mb-16 font-color2 mx-auto lg:mr-10">
                                 Here is my project of redesigning the mobile app for
                                 well-known bank called Sampath Bank in Sri Lanka.
                                 Currently the "Sampath Vishwa" the mobile banking app
@@ -46,17 +46,16 @@ const Portfolio = () => {
                 </div>
                 <div data-aos="fade-right" className="mt-14 lg:mt-0 text-center lg:text-left lg:border-l-2 lg:border-amber-400 lg:border-opacity-10">
                     <h4 className="py-4 sm:text-base lg:text-3xl font-basic mt-4 font-normal text-white lg:ml-10">
-                        Absolute Beverages App Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
+                        Shopia Online Retail Store Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
                     </h4>
-                    <p className="text-justify indent-6 sm:text-base text-sm font-basic mt-8 mb-8 lg:mt-12 lg:mb-16 mx-auto lg:ml-10 font-color2">
-                            The Absolute Beverages is a mobile app for purchase beverages 
-                            through online. Users can simply log in to the app and 
-                            they can buy their favorite products and also can add them 
-                            to the cart. Got inspired after saw some designs and 
-                            brandings about beverages and done this concept design of iOS mobile app interfaces. 
-                            It is not a complete design project, but it is consist of 4 major page designs. 
-                            Hope to develop it as a full design project in future.
-                            Please click the link below to check the full project on Behance.  
+                    <p className="text-justify indent-6 sm:text-base text-sm font-basic mt-8 mb-8 lg:mt-10 lg:mb-16 mx-auto lg:ml-10 font-color2">
+                        “Shopia” is an online retail shop that provide products for the customers. 
+                        Currently it does not have a website for sell their products. 
+                        In this online retail store, they mainly focus on 5 categories. 
+                        They are Electronics, Health & Beauty products, Household items, Kids toys and Sporting goods. 
+                        Over 1000+ products are available now, it means the “Shopia” is still at the starting stage as an online retail store.
+                        This project includes the landing page of "Shopia" online retail store.
+                        Please click the link below to check the full project on Behance.   
                     </p>  
                     <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
@@ -68,23 +67,23 @@ const Portfolio = () => {
                 </div>
                 <div data-aos="fade-left" className="mt-4 lg:mt-0 text-center lg:text-left lg:border-r-2 lg:border-amber-400 lg:border-opacity-10">
                     <h4 className="py-4 sm:text-base lg:text-3xl font-basic mt-4 font-normal text-white lg:mr-10">
-                        NIKE Boots Store App Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
+                        Absolute Beverages App Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
                     </h4>
-                    <p className="indent-6 text-justify sm:text-base text-sm font-basic mt-4 mb-8 lg:mt-12 lg:mb-16 mx-4 lg:mx-auto lg:mr-10 font-color2">
-                                NIKE is one of the leading manufacturer in shoes
-                                for both men and women even for kids. Also they
-                                have a huge reputation in sports industry and the
-                                football is their main sport. Currently they only have
-                                one website for purchasing all kind of shoes. So I
-                                decided to design some iOS user interfaces for
-                                NIKE Football Boots purchasing app which is really
-                                easy to buy products for football players.
-                                Its not a complete design project, but you can check
-                                the demonstration of few interfaces using below link. 
+                    <p className="indent-6 text-justify sm:text-base text-sm font-basic mt-4 mb-8 lg:mt-10 lg:mb-16 mx-4 lg:mx-auto lg:mr-10 font-color2">
+                        The Absolute Beverages is a mobile app for purchase beverages 
+                        through online. Users can simply log in to the app and 
+                        they can buy their favorite products and also can add them 
+                        to the cart. Got inspired after saw some designs and 
+                        brandings about beverages and done this concept design of iOS mobile app interfaces. 
+                        It is not a complete design project, but it is consist of 4 major page designs. 
+                        Hope to develop it as a full design project in future.
+                        Please click the link below to check the full project on Behance.
                     </p>
                     <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
             </div>
+
+            {/* mobile */}
 
             <div className="lg:hidden justify-between sm:pt-14 pt-2">
                 <div data-aos="fade-left" className="text-center lg:text-left lg:border-r-2 lg:border-amber-400 lg:border-opacity-10">
@@ -108,17 +107,16 @@ const Portfolio = () => {
 
                 <div data-aos="fade-right" className="mt-20 lg:mt-0 text-center lg:text-left lg:border-l-2 lg:border-amber-400 lg:border-opacity-10">
                     <h4 className="py-4 text-lg font-basic font-normal text-white lg:ml-10">
-                        Absolute Beverages App Design <span className="font-logo text-lg text-amber-500 cursor-text ml-2">.</span>
+                        Shopia Online Retail Store Design <span className="font-logo text-lg text-amber-500 cursor-text ml-2">.</span>
                     </h4>
                     <p className="text-justify indent-6 md:text-base text-sm font-basic mb-8 mx-2 font-color2 md:mx-20">
-                            The Absolute Beverages is a mobile app for purchase beverages 
-                            through online. Users can simply log in to the app and 
-                            they can buy their favorite products and also can add them 
-                            to the cart. Got inspired after saw some designs and 
-                            brandings about beverages and done this concept design of iOS mobile app interfaces. 
-                            It is not a complete design project, but it is consist of 4 major page designs. 
-                            Hope to develop it as a full design project in future.
-                            Please click the link below to check the full project on Behance.  
+                        “Shopia” is an online retail shop that provide products for the customers. 
+                        Currently it does not have a website for sell their products. 
+                        In this online retail store, they mainly focus on 5 categories. 
+                        They are Electronics, Health & Beauty products, Household items, Kids toys and Sporting goods. 
+                        Over 1000+ products are available now, it means the “Shopia” is still at the starting stage as an online retail store.
+                        This project includes the landing page of "Shopia" online retail store.
+                        Please click the link below to check the full project on Behance.   
                     </p>  
                     <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
@@ -128,19 +126,17 @@ const Portfolio = () => {
 
                 <div data-aos="fade-left" className="mt-20 lg:mt-0 text-center lg:text-left lg:border-r-2 lg:border-amber-400 lg:border-opacity-10">
                     <h4 className="py-4 text-lg font-basic font-normal text-white">
-                        NIKE Boots Store App Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
+                        Absolute Beverages App Design <span className="font-logo sm:text-3xl text-base text-amber-500 cursor-text ml-2">.</span>
                     </h4>
                     <p className="indent-6 text-justify md:text-base text-sm font-basic mb-8 mx-2 font-color2 md:mx-20">
-                                NIKE is one of the leading manufacturer in shoes
-                                for both men and women even for kids. Also they
-                                have a huge reputation in sports industry and the
-                                football is their main sport. Currently they only have
-                                one website for purchasing all kind of shoes. So I
-                                decided to design some iOS user interfaces for
-                                NIKE Football Boots purchasing app which is really
-                                easy to buy products for football players.
-                                Its not a complete design project, but you can check
-                                the demonstration of few interfaces using below link. 
+                        The Absolute Beverages is a mobile app for purchase beverages 
+                        through online. Users can simply log in to the app and 
+                        they can buy their favorite products and also can add them 
+                        to the cart. Got inspired after saw some designs and 
+                        brandings about beverages and done this concept design of iOS mobile app interfaces. 
+                        It is not a complete design project, but it is consist of 4 major page designs. 
+                        Hope to develop it as a full design project in future.
+                        Please click the link below to check the full project on Behance. 
                     </p>
                     <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
