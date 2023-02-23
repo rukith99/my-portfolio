@@ -57,7 +57,7 @@ const Portfolio = () => {
                         This project includes the landing page of "Shopia" online retail store.
                         Please click the link below to check the full project on Behance.   
                     </p>  
-                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
+                    <a href="https://www.behance.net/gallery/164493947/Shopia-Online-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
                 <div data-aos="zoom-out"  className="">
                     <img src={p2} alt="" loading="lazy" className="rounded-lg w-3/4 font-color1 mx-auto lg:mr-10 mt-8 lg:mt-4"/>
@@ -79,7 +79,7 @@ const Portfolio = () => {
                         Hope to develop it as a full design project in future.
                         Please click the link below to check the full project on Behance.
                     </p>
-                    <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ const Portfolio = () => {
                         This project includes the landing page of "Shopia" online retail store.
                         Please click the link below to check the full project on Behance.   
                     </p>  
-                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
+                    <a href="https://www.behance.net/gallery/164493947/Shopia-Online-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium lg:ml-10 animate-pulse hover:animate-none">View full project</a>  
                 </div>
                 <div data-aos="zoom-out"  className="">
                     <img src={p2} alt="" loading="lazy" className="rounded-lg w-3/4 md:1/2 font-color1 mx-auto lg:mr-10 mt-8 lg:mt-4"/>
@@ -138,7 +138,7 @@ const Portfolio = () => {
                         Hope to develop it as a full design project in future.
                         Please click the link below to check the full project on Behance. 
                     </p>
-                    <a href="https://www.behance.net/gallery/159678531/NIKE-Boots-Store"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
+                    <a href="https://www.behance.net/gallery/159225747/Absolute-Beverages-iOS-Concept-App"  target="_blank" rel="noreferrer" className="text-base text-amber-500 font-logo font-medium animate-pulse hover:animate-none">View full project</a>
                 </div>
                 <div data-aos="zoom-out"  className="">
                     <img src={p3} alt="" loading="lazy" className="rounded-lg w-3/4 md:1/2 font-color1 mx-auto my-8"/>
